@@ -1,0 +1,226 @@
+/* Reset Css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Common */
+.col-half {
+    width: 50%;
+}
+
+.clear {
+    clear: both;
+}
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+
+nav {
+    background: #fff;
+    width: 100%;
+    height: 54.5px;
+    padding: 8px 16px;
+    position: fixed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    letter-spacing: 4px;
+    padding: 10.5px 16px;
+    display: block;
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav .menu-left {
+    float: left;
+}
+
+#nav .menu-right {
+    float: right;
+}
+
+#nav li:hover a {
+    background: #ccc;
+    display: block;
+}
+
+.sidebar {
+    background: url(/assets/img/hamburger.jpg) left top / cover no-repeat;
+    padding-top: 50%;
+    position: relative;
+}
+
+.sidebar .text-content h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 28px 24px;
+    font-size: 36px;
+    letter-spacing: 4px;
+    opacity: 0.6;
+}
+
+#content .content-section {
+    padding: 64px 0;
+}
+
+#content {
+    margin: 0px 209px;
+}
+
+#content .img-content img {
+    float: left;
+    padding: 12px 24px;
+    max-width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+
+#content .text-content {
+    float: right;
+    padding: 12px 24px;
+}
+
+#content .text-content h1 {
+    margin: 10px 0;
+    font-size: 36px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#content .text-content .text-items-1 {
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+#content .text-content .text-items-2 {
+    line-height: 1.5;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+#content .text-content .sesonal {
+    padding: 3.1px 8px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+#content .text-content .text-items-3 {
+    font-size: 18px;
+    opacity: 0.6;
+    line-height: 1.5;
+}
+
+#content .content-section-2 {
+    padding: 64px 0;
+}
+
+#content .content-section-2 .text-content-2 {
+    float: left;
+}
+
+#content .content-section-2 .img-content-2 {
+    float: right;
+    padding: 12px 24px;
+    max-width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+#content .text-content-2 h1 {
+    font-size: 36px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#content .text-content-2 h4 {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 5;
+}
+
+#content .text-content-2 p {
+    font-size: 15px;
+    margin: 15px 0;
+    opacity: 0.5;
+}
+
+#content .contact-section {
+    padding: 64px 16px; 
+}
+
+#content .contact-section h1 {
+    margin: 10px 0;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 5;
+}
+
+#content .contact-section p {
+    margin: 10px 0;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+#content .contact-section .text-b {
+    margin: 18px 0;
+    font-size: 18px;
+    color: #607d8b;
+}
+
+.contact-section .form-item .form_control {
+    width: 100%;
+    padding: 19px 8px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+}
+
+.contact-section .btn-submit {
+    padding: 10px 16px;
+    border: none;
+    margin: 16px 0;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.contact-section .btn-submit:hover {
+    background-color: #ccc;
+}
+
+.contact-section .btn-form {
+    margin: 15px 0;
+}
+
+#cuoitrang footer {
+    padding: 36px 0;
+    background: #f1f1f1;
+}
+
+#cuoitrang p {
+    margin: 15px 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+#cuoitrang a {
+    color: black;
+}
