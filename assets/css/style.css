@@ -56,7 +56,7 @@ nav {
 }
 
 .sidebar {
-    background: url(/assets/img/hamburger.jpg) left top / cover no-repeat;
+    background: url(./assets/img/hamburger.jpg) left top / cover no-repeat;
     padding-top: 50%;
     position: relative;
 }
